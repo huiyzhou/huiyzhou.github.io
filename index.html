@@ -1,7 +1,79 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Ahha</title>
+  <style>
+    body {
+      background-image: url('quantum.jpg');
+      background-size: cover;
+      background-position: center;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    .section {
+      width: 50%;
+      height: 50%;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+      color: #fff;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    .section:nth-child(1) {
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+    
+    .section:nth-child(2) {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    .section:nth-child(3) {
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+    
+    .section:nth-child(4) {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    
+    p {
+      font-size: 18px;
+    }
+  </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <div class="container">
+    <div class="section">
+      <h1>Section 1</h1>
+      <p>This is the first section.</p>
+    </div>
+    <div class="section">
+      <h1>Section 2</h1>
+      <p>This is the second section.</p>
+    </div>
+    <div class="section">
+      <h1>Section 3</h1>
+      <p>This is the third section.</p>
+    </div>
+    <div class="section">
+      <h1>Section 4</h1>
+      <p>This is the fourth section.</p>
+    </div>
+  </div>
 </body>
 </html>
